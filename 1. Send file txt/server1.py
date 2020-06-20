@@ -14,7 +14,6 @@ print ("Aceitando a conexao...")
 conn,addr= s.accept()
 
 print ('Nova conexão de',addr,'!')
-
  
 print ("recebendo o arquivo...")
 arq = open('messageOut.txt','wb')

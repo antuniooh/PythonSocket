@@ -2,7 +2,7 @@
 import socket
 print ("Servidor")
  
-HOST = '10.113.22.1'
+HOST = 'localhost'
 PORT = 57000
  
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
